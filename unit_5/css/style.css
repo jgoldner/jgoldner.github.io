@@ -76,4 +76,14 @@ iframe {
   width: 300px;
 }
 
+footer {
 
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:#538243;
+}
+
+hr {
+  size: 10px;
+  color:#538243;
+}
