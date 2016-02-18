@@ -21,6 +21,17 @@ header {
   font-family: 'Open Sans', sans-serif;
 }
 
+nav a {
+  color:#538243 ;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #7e324a;
+}
+
 body {
 
   margin:0 ;
@@ -30,7 +41,7 @@ body {
 h1{
 
   font-size: 1.5em;
-  padding: 0 50px;
+  padding: 10px 50px;
 
 }
 
@@ -41,6 +52,8 @@ h3 {
 
 p {
   font-size: 14px;
+  line-height: 1.5;
+  padding: 0 50px;
 }
 
 #logo {
@@ -56,7 +69,7 @@ p {
   background: url("../images/gfh_veggiesbackground.png");
   background-size: cover;
   display: inline-block;
-  padding: 20px 50px;
+  padding: 0 0 60px 0;
   color:#538243;
 
 }
@@ -64,10 +77,11 @@ p {
 #givefood {
 
   text-align: center;
-  display: inline-block;
-  padding: 0 50px;
+  display: block;
+  padding: 0 20px;
   color:#538243;
-
+  font-family: 'Open Sans', sans-serif;
+  float: left;
 }
 
 .button {
@@ -80,8 +94,8 @@ iframe {
 
   display: inline-block;
   padding: 20px 100px;  
-
 }
+
 
 #letterbutton {
   display: block;
@@ -91,14 +105,49 @@ iframe {
   padding-bottom:50px;
 }
 
+
 footer {
 
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color:#538243;
+  clear: both;
 }
 
 hr {
   size: 10px;
   color:#538243;
 }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+
+
