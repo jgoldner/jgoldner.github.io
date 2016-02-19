@@ -9,13 +9,13 @@
 
 <header>
 	
-	<div id="hero">
+	<div class="clearfix" id="hero">
 
 		<nav>
-			<a href="index.html">Home</a> | 
-			<a href="index.html">Our Story</a> | 
-			<a href="index.html">Donate</a> | 
-			<a href="index.html">Photos</a> | 
+			<a href="index.html">Home</a> 
+			<a href="index.html">Our Story</a> 
+			<a href="index.html">Donate</a> 
+			<a href="index.html">Photos</a>
 			<a href="index.html">Contact</a> 
 		</nav>
 
@@ -23,8 +23,8 @@
 
 			<h1> Bringing the bounty of the Hudson Valley to our community one week at a time.</h1>
 
-			<img src="images/gfh_ourstorybutton1.png" class="button" alt="Our Story">
-			<img src="images/gfh_givefoodbutton1.png" class="button" alt="Give Food">
+			<img src="images/gfh_ourstorybutton1.png" id="storybutton" class="button" alt="Our Story">
+			<img src="images/gfh_givefoodbutton1.png" id="foodbutton" class="button" alt="Give Food">
 
 	</div>
 
@@ -32,7 +32,7 @@
 
 			<h2>Our Story</h2>
 
-			<iframe src="https://player.vimeo.com/video/149773509" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe id="video" src="https://player.vimeo.com/video/149773509" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	
 			<h3>Farming is one of the most fundamental and necessary of all services. <br/>Eating is one of the most fundamental and necessary of all human rights.</h3>
 	
@@ -53,6 +53,10 @@
 
 	<section id="givefood">
 
+		<div class="wrapper clearfix">
+
+		<div class="column2">
+
 			<h2>Give Food</h2>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -62,11 +66,19 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-			<iframe src="https://www.youcaring.com/fundraiser-widget.aspx?frid=304628" width="260" height="398" frameborder="0"></iframe>
+			</div>
+
+			<div class="column2">
+
+			<iframe id="donate" src="https://www.youcaring.com/fundraiser-widget.aspx?frid=304628" width="260" height="398" frameborder="0"></iframe>
+			
+			</div>
+
+			</div>
 
 	</section>
 
-		<section class="clearfix" id=“two_column">
+		<!-- <section class="clearfix" id="two_column">
 
     	<aside id="left">
 
@@ -91,15 +103,15 @@
         	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     	</article>
 
-</section>
+</section> -->
 
-		<hr>
 
 		<footer>
 
 			<p>&copy; Good Food for Hudson 2016</p>
 
 		</footer>
+
 
 	</body>
 
