@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800,600);
+
+header {
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+  margin:0 ;
+}
+
+h1,h2{
+
+  font-size: 1.3em;
+  padding: 30px 50px 30px 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color:#538243;
+
+}
+
+h3 {
+  font-size: 1em;
+  padding: 30px 50px 30px 50px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  padding: 0 50px;
+}
+
+nav.menu {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.menu a {
+  color:#538243 ;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  border-right: 2px solid #9fb28f;
+}
+
+nav.menu a:last-of-type{
+  border: none;
+}
+
+nav.menu a:hover {
+  color: #7e324a;
+}
+
+nav.socialicons {
+  float: left;
+  margin-left: 20px;
+}
+
+nav.socialicons a {
+  width: 30px;
+  margin-left:8px;
+  float: left;
+}
+
+nav.socialicons img {
+  width: 100%;
+}
+
+label {
+
+  font-size: 16px;
+  font-weight: bold;
+  display: none;
+}
+
+
+hr{
+  border:none;
+  height:3px;
+  background-color: #9fb28f;
+  width:20em;
+  margin:1em auto;
+}
+
+footer {
+
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:#538243;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(224, 219, 179, .3);
+  clear: both;
+}
+
+
+.button {
+
+  margin: 10px;
+  width: 200px;
+}
+
+.wrapper{
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
+  margin: auto;
+}
+
+.columnbig {
+  width: 55%;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.columnsmall {
+  width: 30%;
+  min-width: 350px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#hero {
+  text-align: center;
+  background: url("../images/gfh_newbackground.png");
+  background-size: cover; /*For covering full page*/
+  background-color: #e0dbb3;
+  background-position: center;
+  color:#538243;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+}
+
+
+#logo {
+
+   display: block;
+   margin: auto; 
+   padding-top: 30px;
+   width: 50%;
+   max-width: 400px;
+   min-width: 300px;
+   clear: both;
+}
+
+#arrow {
+   width: 50px;
+   text-align: center;
+}
+  
+
+#ourstory {
+
+  text-align: center;
+/*  background: url("../images/gfh_veggiesbackground.png");*/
+  background-size: cover;
+  display: inline-block;
+  padding:0 50px;
+  color:#538243;
+
+}
+
+#givefood {
+
+  text-align: center;
+  display: block;
+  color:#538243;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#video {
+  width: 80%;
+  min-height: 309px;
+  max-width: 550px;
+  display: inline-block;
+}
+
+
+#letterbutton {
+  display: block;
+  margin: auto; 
+  width: 250px;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+
+#donate {
+  padding: 30px 0px;
+  margin-left: 0;
+  width: 260px;
+  height: 398px;
+
+}
+
+#givefoodp {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0;
+
+}
+
+#instagramphotos {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#instafeed {
+  display: block;
+  margin: auto;
+  border: none;
+  overflow: hidden;
+  width: 850px;
+  height: 850px;
+  clear: both;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+nav.socialicons {
+  float: none;
+  margin: 20px auto;
+  width: 152px;
+  clear: both;
+}
+
+nav.menu {
+  display: none;
+  float: none;
+  margin: 0;
+}
+
+#toggle:checked + nav.menu {
+  display: block;
+  border-top: 2px solid #9fb28f;
+  border-bottom: 2px solid #9fb28f;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+nav.menu a {
+  padding: 10px;
+  border-right: none;
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 980px) {
+
+.columnbig {
+  width: 100%;
+  float: none;
+  padding-bottom: 10px;
+}
+
+.columnsmall {
+  width: 100%;
+  min-width: 350px;
+  float: none;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
