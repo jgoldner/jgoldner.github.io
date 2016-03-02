@@ -237,7 +237,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only handheld, screen and (max-width: 700px) {
 
 nav.socialicons {
   float: none;
@@ -271,7 +271,7 @@ nav.menu a {
 
 }
 
-@media only screen and (max-width: 980px) {
+@media only handheld, screen and (max-width: 980px) {
 
 .columnbig {
   width: 100%;
@@ -285,9 +285,6 @@ nav.menu a {
   float: none;
   padding-bottom: 20px;
 }
-
-
-
 
 
 
