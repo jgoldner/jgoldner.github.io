@@ -276,19 +276,34 @@ nav.menu a {
 .columnbig {
   width: 100%;
   float: none;
-  padding-bottom: 10px;
+  padding:10px 20px;
 }
 
 .columnsmall {
   width: 100%;
   min-width: 350px;
   float: none;
-  padding-bottom: 20px;
+  padding:10px 20px;
 }
 
 
+@media only screen and (max-device-width: 480px) {
 
+.wrapper{
+  width: auto;
+  margin: auto;
+  display: block;
+}
 
+#hero {
+  background: url("../images/gfh_newbackground.png");
+  background-size: cover; /*For covering full page*/
+  background-position: center;
+  width: 100%;
+
+}
+
+  }
 
 
 
