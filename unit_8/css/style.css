@@ -269,6 +269,16 @@ nav.menu a {
   display: block;
 }
 
+#instafeed {
+  display: block;
+  margin: auto;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  clear: both;
+}
+
 }
 
 @media only screen and (max-width: 980px) {
@@ -290,17 +300,8 @@ nav.menu a {
 @media only screen and (max-device-width: 480px) {
 
 .wrapper{
-  width: auto;
-  margin: auto;
-  display: block;
-}
-
-#hero {
-  background: url("../images/gfh_newbackground.png");
-  background-size: cover; /*For covering full page*/
-  background-position: center;
-  width: 100%;
-
+  width: 400px; 
+  min-width: 480px;
 }
 
   }
