@@ -299,11 +299,14 @@ nav.menu a {
 
 @media only screen and (max-device-width: 600px) {
 
-.wrapper {
-  width: 100%;
-  min-width: 480px;
-}
+#hero {
+    background-image: url("../images/gfh_newbackground.png")
+    background-repeat: no-repeat; 
+    background-position: center center;      
+    background-size: 4083px 8463px;
+    background-attachment: fixed;
 
+}
 
   }
 
