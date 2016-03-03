@@ -299,20 +299,10 @@ nav.menu a {
 
 @media only screen and (max-device-width: 600px) {
 
-.wrapper{
-  width: auto; 
+.wrapper {
+  width: 50%;
   min-width: 600px;
 }
-
-#hero {
-  background: url("../images/gfh_newbackground.png");
-  background-size: 100% 100%; /*For covering full page*/
-  background-position: center;
-  width: 100%;
-
-
-}
-
   }
 
 
