@@ -4,14 +4,14 @@
   box-sizing:border-box;
 }
 
-header {
-
-  font-family: 'Open Sans', sans-serif;
-}
-
 body {
 
   margin:0 ;
+}
+
+header,body,h1,h2,h3,p {
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,h2{
@@ -20,7 +20,6 @@ h1,h2{
   padding: 30px 50px 30px 50px;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
   color:#538243;
 
 }
@@ -152,19 +151,6 @@ nav.footermenu a:hover {
   margin: auto;
 }
 
-.columnbig {
-  width: 55%;
-  float: left;
-  padding-bottom: 50px;
-}
-
-.columnsmall {
-  width: 30%;
-  min-width: 350px;
-  float: left;
-  padding-bottom: 50px;
-}
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -177,15 +163,14 @@ nav.footermenu a:hover {
 
 #hero {
   text-align: center;
-  background: url("../images/gfh_newbackground.png");
+  background: url("../images/gfh_backgroundfinal.png");
   background-size: cover; /*For covering full page*/
   background-color: #e0dbb3;
   background-position: center;
   color:#538243;
-  font-family: 'Open Sans', sans-serif;
   width: 100%;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 
 }
 
@@ -195,9 +180,9 @@ nav.footermenu a:hover {
    display: block;
    margin: auto; 
    padding-top: 30px;
-   width: 50%;
-   max-width: 400px;
-   min-width: 300px;
+   width: 60%;
+   max-width: 320px;
+   min-width: 200px;
    clear: both;
 }
 
@@ -212,18 +197,16 @@ nav.footermenu a:hover {
    min-width: 100px;
    clear: both;
 }
-
-#arrow {
-   width: 50px;
-   text-align: center;
-}
   
 
 #ourstory {
 
   text-align: center;
+/*  background: url("../images/gfh_backgroundbottom.png");
   background-size: cover;
+  background-position: center;*/
   color:#538243;
+  padding-top: 0px;
 }
 
 
