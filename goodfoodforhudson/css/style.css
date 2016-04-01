@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800,600);
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+
+  margin:0 ;
+}
+
+header,body,h1,h2,h3,p {
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2{
+
+  font-size: 1.3em;
+  padding: 30px 50px 30px 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  color:#538243;
+
+}
+
+h3 {
+  font-size: 1em;
+  padding: 30px 50px 30px 50px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  padding: 0 50px;
+}
+
+nav.menu {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.menu a {
+  color:#538243 ;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+  border-right: 2px solid #9fb28f;
+}
+
+nav.menu a:nth-last-child(2){
+  border:none;
+  padding-right: 15px;
+}
+
+nav.menu a:last-of-type{
+  border: 2px solid #9fb28f;
+  padding: 5px 10px;
+  color: #ffffff;
+  background: #538243;
+}
+
+nav.menu a:hover {
+  color: #7e324a;
+}
+
+nav.menu:hover > #support:hover{
+  color: #ffffff;
+  background: #7e324a;
+}
+
+nav.menu img {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.socialicons {
+  float: left;
+  margin-left: 20px;
+}
+
+nav.socialicons a {
+  width: 30px;
+  margin-left:8px;
+  float: left;
+}
+
+nav.socialicons img {
+  width: 100%;
+}
+
+label {
+
+  font-size: 16px;
+  font-weight: bold;
+  display: none;
+}
+
+
+hr{
+  border:none;
+  height:3px;
+  background-color: #9fb28f;
+  width:20em;
+  margin:1em auto;
+}
+
+footer {
+
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:#538243;
+  padding-top: 20px;
+  padding-bottom:40px;
+  background-color: #538243;
+  clear: both;
+}
+
+nav.footermenu {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav.footermenu a {
+  color:#ffffff;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 12px;
+  border-right: 2px solid #9fb28f;
+}
+
+nav.footermenu a:last-of-type{
+  border: none;
+}
+
+nav.footermenu a:hover {
+  color: #7e324a;
+}
+
+
+.button {
+  margin: auto;
+  width: 250px;
+  position: relative;
+  margin: auto;
+}
+
+.button:hover #letterbutton {
+  display: none;
+}
+
+.button:hover #second {
+  display: block;
+}
+
+.wrapper{
+  width: 80%;
+  max-width: 1200px;
+/* min-width: 500px;*/ 
+  margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#hero {
+  text-align: center;
+  background: url("../images/gfh_backgroundfinal.png");
+  background-size: cover; /*For covering full page*/
+  background-color: #e0dbb3;
+  background-position: center;
+  color:#538243;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+#logo {
+
+   display: block;
+   margin: auto; 
+   padding-top: 30px;
+   width: 60%;
+   max-width: 320px;
+   min-width: 200px;
+   clear: both;
+}
+
+
+#farmerletterlogo
+{
+   display: block;
+   margin: auto; 
+   padding-top: 20px;
+   padding-bottom: 20px;
+   width: 50%;
+   max-width: 200px;
+   min-width: 100px;
+   clear: both;
+}
+  
+
+#ourstory {
+
+  text-align: center;
+/*  background: url("../images/gfh_backgroundbottom.png");
+  background-size: cover;
+  background-position: center;*/
+  color:#538243;
+  padding-top: 0px;
+}
+
+
+#letterbutton {
+  display: block; 
+  width: 250px;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+
+#second {
+  display: none;
+  width: 250px;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+
+
+#video {
+  width: 80%;
+  min-height: 309px;
+  max-width: 550px;
+  display: inline-block;
+}
+
+
+#toggle {
+  display: none;
+}
+
+#copyright {
+  float: left;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#emaillink {
+  font-weight: bold;
+  line-height: 1.5;
+  color:#7e324a;
+
+}
+
+@media only screen and (max-width: 980px) {
+
+.columnbig {
+  width: 100%;
+  float: none;
+  padding:10px 20px;
+}
+
+.columnsmall {
+  width: 100%;
+  min-width: 350px;
+  float: none;
+  padding:10px 20px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+
+nav.socialicons {
+  float: none;
+  margin: 20px auto;
+  width: 152px;
+  clear: both;
+}
+
+nav.menu {
+  display: none;
+  float: none;
+  margin: 0;
+}
+
+nav.footermenu {
+  display: none;
+  float: none;
+  margin: 0;
+}
+
+#toggle:checked + nav.menu {
+  display: block;
+  border-top: 2px solid #9fb28f;
+  border-bottom: 2px solid #9fb28f;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+nav.menu a {
+  padding: 10px;
+  border-right: none;
+  display: block;
+}
+
+nav.menu a:last-of-type{
+  border: none;
+  padding:10px;
+  background: none;
+  color: #538243;
+  }
+
+nav.menu:hover > #support:hover{
+  color: #7e324a;
+  background: none;
+}
+
+
+#instafeed {
+  display: block;
+  margin: auto;
+  border: none;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  clear: both;
+}
+
+#copyright {
+  width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 605px) {
+  
+  p{
+    padding:0 20px;
+  }
+
+  .wrapper {
+    width: 95%;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+
+  h1 {
+    padding: 30px;
+  }
+
+}
+
+
+
