@@ -258,14 +258,14 @@ nav.footermenu a:hover {
   font-size: 13px;
 }
 
-#emaillink {
+/*#emaillink {
   font-weight: bold;
   line-height: 1.5;
   color:#7e324a;
 
-}
+}*/
 
-@media only screen and (max-width: 980px) {
+/*@media only screen and (max-width: 980px) {
 
 .columnbig {
   width: 100%;
@@ -279,7 +279,7 @@ nav.footermenu a:hover {
   float: none;
   padding:10px 20px;
 }
-}
+}*/
 
 @media only screen and (max-width: 700px) {
 
