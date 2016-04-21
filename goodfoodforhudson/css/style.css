@@ -9,7 +9,7 @@ body {
   margin:0 ;
 }
 
-header,body,h1,h2,h3,p {
+header,body,h1,h2,h3,h4,p {
 
   font-family: 'Open Sans', sans-serif;
 }
@@ -31,11 +31,21 @@ h3 {
   line-height: 1.5;
 }
 
+h4 {
+  font-size: 1em;
+  padding: 30px 50px 30px 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  color:#636466;
+}
+
+
 p {
   font-size: 1em;
   line-height: 1.6;
   padding: 0 50px;
 }
+
 
 nav.menu {
   float: right;
@@ -174,6 +184,18 @@ nav.footermenu a:hover {
     height: 0;
 }
 
+.link {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  color:#538243 
+}
+
+.link:hover {
+  color: #7e324a;
+}
+
 
 #hero {
   text-align: center;
@@ -257,6 +279,16 @@ nav.footermenu a:hover {
   color: #ffffff;
   font-size: 13px;
 }
+
+#eventposter {
+  display: center; 
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+
+
+
 
 /*#emaillink {
   font-weight: bold;
